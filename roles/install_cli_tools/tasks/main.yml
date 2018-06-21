@@ -1,0 +1,22 @@
+---
+- name: "Installing package {{ item }}"
+  package:
+    name: "{ item }}"
+    state: latest
+  with_items:
+    - git
+    - git-extras
+    - tig
+    - ack-grep
+    - silversearcher-ag
+    - tmux
+    - cloc
+    - autojump
+    - htop
+    - ranger
+    - zsh
+    - rmtrash
+    - neovim
+    - rcm
+    - 
+...
