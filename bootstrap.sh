@@ -1,10 +1,7 @@
-#!/bin/sh
+#!/bin/bash
 
-# Installing Xcode command line tools (opens UI window)
-xcode-select --install
-
-# Installing Homebrew if it is not installed
-brew || /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-
-# Installing ansible if it is not installed
-ansible || brew install ansible
+# Install ansible
+sudo apt-get install software-properties-common
+sudo apt-add-repository ppa:ansible/ansible
+sudo apt-get update
+sudo apt-get install ansible

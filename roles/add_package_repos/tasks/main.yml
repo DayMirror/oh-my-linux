@@ -1,0 +1,12 @@
+---
+- name: "Adding package repository {{ item }}"
+  apt_repository:
+    repo: "{{ item }}"
+    state: present
+  with_items:
+    - ppa:martin-frost/thoughtbot-rcm # for rcm
+    - ppa:neovim-ppa/stable # for neovim
+- name: Updating package manager cache
+  apt_repository:
+    update_cache: yes
+...

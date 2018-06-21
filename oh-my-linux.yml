@@ -2,6 +2,9 @@
 - hosts: localhost
   connection: local
   roles:
-    - install_brew_packages
+    - add_package_repos
+    - install_cli_tools
     - install_rust_packages
+    - install_node_packages
+    - configure
 ...

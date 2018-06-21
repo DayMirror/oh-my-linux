@@ -9,4 +9,5 @@
     - pm2 # process management and load-balancing tool to run node.js server
     - jshint # detect errors and problems in js code
     - nodemon # monitors for changes in js code and restarts the server
+    - trash-cli # moves foles and folders into trash instead of permanently deleting
 ...
