@@ -1,2 +1,2 @@
-# oh-my-linux
-Quick Linux machine setup.
+# oh-my-mac
+Setup and configure mac machine quickly.
