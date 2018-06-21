@@ -34,6 +34,7 @@
     - ant
     - maven
     - gradle
+    - docker
 - name: Installing zplug
   shell: curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh | zsh
   args:
