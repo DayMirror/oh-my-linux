@@ -7,6 +7,7 @@
     - git
     - git-extras # A pack of handful additional commands for git
     - tig # NCurses-based text-mode interface for git
+    - checkinstall # keeps track of everything installed by make install and similar
     - ack-grep # better searching tool than grep
     - silversearcher-ag # A code searching tool similar to ack, with a focus on speed
     - tmux
