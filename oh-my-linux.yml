@@ -7,5 +7,5 @@
     - install_rust_packages
     - install_node_packages
     - vim
-    - configure
+    - dotfiles
 ...
