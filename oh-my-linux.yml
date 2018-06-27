@@ -2,10 +2,10 @@
 - hosts: localhost
   connection: local
   roles:
-    - add_package_repos
-    - install_cli_tools
-    - install_rust_packages
-    - install_node_packages
-    - vim
-    - dotfiles
+    - install-cli-tools
+    - install-nodes
+    - install-crates
+    - install-gems
+    - setup-dotfiles
+    - setup-vim
 ...

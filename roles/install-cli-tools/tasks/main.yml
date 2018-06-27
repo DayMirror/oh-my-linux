@@ -1,0 +1,27 @@
+---
+- name: "Adding package repository {{ item }}"
+  apt_repository:
+    repo: "{{ item }}"
+    state: present
+  with_items: "{{ repos }}"
+- name: Updating package manager cache
+  apt_repository:
+    update_cache: yes
+- name: "Installing package {{ item }}"
+  package:
+    name: "{{ item }}"
+    state: latest
+  with_items: "{{ tools }}"
+- name: Installing zplug # zsh plugins manager
+  shell: curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh | zsh
+  args:
+    creates: ~/.zplug
+- name: Installing fd # simpler alternative to find command
+  shell: |
+    curl -sL --proto-redit -all,https https://github.com/sharkdp/fd/releases/download/v7.0.0/fd_7.0.0_amd64.deb > fd.deb && sudo dpkg -i fd.deb
+    rm -f fd.deb
+- name: Installing fzf # cli fuzzy finder tool
+  shell: |
+    git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf && ~/.fzf/install
+    rm -rf ~/.fzf
+...
