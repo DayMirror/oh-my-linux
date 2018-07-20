@@ -11,7 +11,7 @@
   package:
     name: "{{ item }}"
     state: latest
-  with_items: "{{ tools }}"
+  with_items: "{{ packages }}"
 - name: Installing zplug # zsh plugins manager
   shell: curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh | zsh
   args:
