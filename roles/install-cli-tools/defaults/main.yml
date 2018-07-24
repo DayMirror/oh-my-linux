@@ -20,6 +20,7 @@ packages:
   - ssh-copy-id
   - mosh # More robust and responsive replacement for SSH
   - wget
+  - rename # cli tool for renaming multiple files
   - gnupg2
   - nodejs
   - ruby
