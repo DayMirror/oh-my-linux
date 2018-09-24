@@ -22,7 +22,6 @@ packages:
   - wget
   - rename # cli tool for renaming multiple files
   - gnupg2
-  - nodejs
   - ruby
   - rust
   - groovy
