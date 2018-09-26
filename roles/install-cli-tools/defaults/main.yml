@@ -22,6 +22,7 @@ packages:
   - wget
   - rename # cli tool for renaming multiple files
   - gnupg2
+  - nodejs # tsuquyomi vim plugin doesn't recognize nvm
   - ruby
   - rust
   - groovy
