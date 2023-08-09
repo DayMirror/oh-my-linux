@@ -7,7 +7,4 @@
   src: https://github.com/DayMirror/ansible-role-install-crates.git
 - name: install-gems
   src: https://github.com/DayMirror/ansible-role-install-gems.git
-- name: install-dmg
-  src: https://github.com/DayMirror/ansible-role-install-dmg.git
-- src: fubarhouse.rust
 ...

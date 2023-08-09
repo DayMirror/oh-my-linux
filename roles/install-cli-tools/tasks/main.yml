@@ -5,7 +5,7 @@
     state: present
   with_items: "{{ repos }}"
 - name: Updating package manager cache
-  apt_repository:
+  apt:
     update_cache: yes
 - name: "Installing package {{ item }}"
   package:

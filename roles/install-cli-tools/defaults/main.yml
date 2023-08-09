@@ -1,37 +1,42 @@
 ---
+repos:
+  - ppa:rmescandon/yq
 packages:
-  - git
+  - tmux
   - git-extras # A pack of handful additional commands for git
   - tig # NCurses-based text-mode interface for git
-  - checkinstall # keeps track of everything installed by make install and similar
-  - ack-grep # better searching tool than grep
+  - ack-grep # better searching tool (ack) than grep
   - silversearcher-ag # A code searching tool similar to ack, with a focus on speed
-  - tmux
   - cloc # Tool to count lines of code
-  - autojump
+  - autojump # faster way to navigate the filesystem with command 'j'
   - htop # An interactive process viewer for Unix, better than top
+  - tree # Tool able to show directory tree structure in the shell
   - ranger # Console file manager with Vi key bindings
-  - zsh
   - neovim # Vim with async plugins execution
   - rcm # Dotfiles management tool from Thoughtbot
   - direnv # Tool for autoloading environment variables when cd'ing into a folder
   - jq # Command-line JSON parser
-  - tree # Tool able to show directory tree structure in the shell
-  - ssh-copy-id
+  - yq # Command-line YAML parser
+  - openssh-client # includes ssh-copy-id tool
   - mosh # More robust and responsive replacement for SSH
-  - wget
+  - wget # easily download stuff from the internet
   - rename # cli tool for renaming multiple files
+  - fd-find # fdfind more powerful alternative to standard find command
+  - fzf # fuzzy finder
   - gnupg2
   - nodejs # tsuquyomi vim plugin doesn't recognize nvm
   - ruby
-  - rust
+  - rustc
   - groovy
-  - python@2
-  - openjdk-8-jdk
+  - kotlin
+  - python2
+  - python3
+  - make
   - cmake
+  - checkinstall # keeps track of everything installed by make install and similar
   - ant
   - maven
   - gradle
   - docker
-  - mongodb
+  - yakuake # drop-down terminal for KDE
 ...

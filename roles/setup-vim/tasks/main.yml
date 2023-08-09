@@ -9,7 +9,7 @@
     repo: "{{ vim_repo }}"
     dest: ~/vim
     depth: 1
-    version: v8.1.0105
+    version: v9.0.1680
 - name: Compiling vim
   shell: |
     ./configure --with-features=huge \

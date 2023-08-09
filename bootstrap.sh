@@ -1,7 +1,12 @@
 #!/bin/bash
 
-# Install ansible
-sudo apt-get install software-properties-common
-sudo apt-add-repository ppa:ansible/ansible
-sudo apt-get update
-sudo apt-get install ansible
+sh ./bootstrap/setup-zsh.sh
+sh ./bootstrap/install-git.sh
+sh ./bootstrap/install-ansible.sh
+sh ./bootstrap/install-nerd-fonts.sh
+sh ./bootstrap/install-nvm.sh
+sh ./bootstrap/install-sdkman.sh
+
+ansible-galaxy install -r requirements.yml
+ansible-playbook oh-my-linux.yml
+

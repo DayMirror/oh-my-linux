@@ -3,9 +3,9 @@
   connection: local
   roles:
     - install-cli-tools
-    - install-nodes
-    - install-crates
-    - install-gems
     - setup-dotfiles
     - setup-vim
+    - install-nodes
+    - install-gems
+    # - install-crates
 ...
