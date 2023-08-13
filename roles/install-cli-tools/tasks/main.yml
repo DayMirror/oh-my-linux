@@ -1,5 +1,5 @@
 ---
-- name: "Adding package repository {{ item }}"
+- name: "Adding package repositories"
   apt_repository:
     repo: "{{ item }}"
     state: present
@@ -7,7 +7,7 @@
 - name: Updating package manager cache
   apt:
     update_cache: yes
-- name: "Installing package {{ item }}"
+- name: "Installing packages"
   package:
     name: "{{ item }}"
     state: latest

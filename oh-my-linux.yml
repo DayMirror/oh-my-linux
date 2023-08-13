@@ -7,5 +7,6 @@
     - setup-vim
     - install-nodes
     - install-gems
-    # - install-crates
+    - install-snaps
+    - install-crates
 ...

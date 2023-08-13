@@ -1,0 +1,12 @@
+---
+snaps:
+  - code # visual studio code
+  - postman
+  - intellij-idea-community
+  - rider
+  - dbeaver-ce
+  - datagrip # dbeaver alternative from jetbrains
+  - redisinsight
+  - slack
+  - zoom-client
+...

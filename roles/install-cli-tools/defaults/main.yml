@@ -1,7 +1,10 @@
 ---
 repos:
   - ppa:rmescandon/yq
+  - ppa:shutter/ppa
 packages:
+  - software-properties-common
+  - apt-transport-https
   - tmux
   - git-extras # A pack of handful additional commands for git
   - tig # NCurses-based text-mode interface for git
@@ -19,11 +22,13 @@ packages:
   - yq # Command-line YAML parser
   - openssh-client # includes ssh-copy-id tool
   - mosh # More robust and responsive replacement for SSH
+  - curl
   - wget # easily download stuff from the internet
   - rename # cli tool for renaming multiple files
   - fd-find # fdfind more powerful alternative to standard find command
   - fzf # fuzzy finder
   - gnupg2
+  - ca-certificates
   - nodejs # tsuquyomi vim plugin doesn't recognize nvm
   - ruby
   - rustc
@@ -39,4 +44,7 @@ packages:
   - gradle
   - docker
   - yakuake # drop-down terminal for KDE
+  - mitmproxy # powerful proxy tool
+  - flameshot # screenshot tool
+  - shutter # another screenshot tool
 ...
