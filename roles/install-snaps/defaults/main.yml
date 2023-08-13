@@ -12,4 +12,5 @@ snaps:
   - aws-cli
   - google-cloud-sdk
   - chromium
+  - blender
 ...

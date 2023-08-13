@@ -48,4 +48,5 @@ packages:
   - mitmproxy # powerful proxy tool
   - flameshot # screenshot tool
   - smartgit
+  - gimp # gnu image manipulation pack
 ...
