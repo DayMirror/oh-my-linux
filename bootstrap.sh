@@ -9,6 +9,7 @@ sh ./bootstrap/install-sdkman.sh
 sh ./bootstrap/install-pyenv.sh
 sh ./bootstrap/install-docker.sh
 sh ./bootstrap/install-elasticsearch.sh
+sh ./bootstrap/install-openlens.sh
 
 ansible-galaxy install -r requirements.yml
 ansible-playbook oh-my-linux.yml

@@ -9,4 +9,8 @@ snaps:
   - redisinsight
   - slack
   - zoom-client
+  - kubectl
+  - aws-cli
+  - google-cloud-sdk
+  - chromium
 ...

@@ -1,7 +1,7 @@
 ---
 repos:
   - ppa:rmescandon/yq
-  - ppa:shutter/ppa
+  - ppa:eugenesan/ppa # smartgit
 packages:
   - software-properties-common
   - apt-transport-https
@@ -38,6 +38,7 @@ packages:
   - python3
   - make
   - cmake
+  - g++ 
   - checkinstall # keeps track of everything installed by make install and similar
   - ant
   - maven
@@ -46,5 +47,5 @@ packages:
   - yakuake # drop-down terminal for KDE
   - mitmproxy # powerful proxy tool
   - flameshot # screenshot tool
-  - shutter # another screenshot tool
+  - smartgit
 ...
