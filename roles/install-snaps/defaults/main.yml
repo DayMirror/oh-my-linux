@@ -3,9 +3,8 @@ snaps:
   - code # visual studio code
   - postman
   - intellij-idea-community
-  - rider
   - dbeaver-ce
-  - datagrip # dbeaver alternative from jetbrains
+  - redis
   - redisinsight
   - slack
   - zoom-client
