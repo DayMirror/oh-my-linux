@@ -12,6 +12,5 @@ sh ./bootstrap/install-nvm.sh
 sh ./bootstrap/install-sdkman.sh
 sh ./bootstrap/install-pyenv.sh
 sh ./bootstrap/install-docker.sh
-sh ./bootstrap/install-elasticsearch.sh
 sh ./bootstrap/install-openlens.sh
 sh ./bootstrap/install-mongo.sh

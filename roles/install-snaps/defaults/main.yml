@@ -4,7 +4,6 @@ snaps:
   - postman
   - intellij-idea-community
   - dbeaver-ce
-  - redis
   - redisinsight
   - slack
   - zoom-client

@@ -1,6 +1,6 @@
 ---
 repos:
-  - ppa:rmescandon/yq
+  - ppa:rmescandon/yq # yq tool repo
   - ppa:eugenesan/ppa # smartgit
 packages:
   - software-properties-common
