@@ -1,9 +1,12 @@
-#!/bin/bash
+#!/usr/bin/env sh
+
+version=v6.1.0
+npm_version=16
 
 sudo apt-get install -y curl g++ make tar
 
 # get source code
-curl -sL -o openlens.tgz https://github.com/lensapp/lens/archive/refs/tags/v6.1.0.tar.gz
+curl -sL -o openlens.tgz https://github.com/lensapp/lens/archive/refs/tags/${version}.tar.gz
 tar xf ./openlens.tgz
 mv ./lens-* ./lens
 sed -i '/\"rpm\"\,/d' ./lens/package.json
@@ -13,7 +16,7 @@ source "${NVM_DIR}/nvm.sh"
 
 # build
 cd ./lens
-nvm install 16 && nvm use 16 && npm install -g yarn
+nvm install ${npm_version} && nvm use ${npm_version} && npm install -g yarn
 make build
 
 # install the binary

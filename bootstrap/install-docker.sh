@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env sh
 
 sudo apt update
 sudo apt install ca-certificates curl gnupg apt-transport-https software-properties-common

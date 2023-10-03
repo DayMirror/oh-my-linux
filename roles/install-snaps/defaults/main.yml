@@ -1,15 +1,10 @@
 ---
 snaps:
-  - code # visual studio code
   - postman
-  - intellij-idea-community
-  - dbeaver-ce
   - redisinsight
   - slack
   - zoom-client
   - kubectl
   - aws-cli
   - google-cloud-sdk
-  - chromium
-  - blender
 ...

@@ -5,8 +5,8 @@
     - install-cli-tools
     - setup-dotfiles
     - setup-vim
+    - install-snaps
     - install-nodes
     - install-gems
-    - install-snaps
     - install-crates
 ...

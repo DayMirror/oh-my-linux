@@ -37,10 +37,13 @@ packages:
   - make
   - cmake
   - g++
+  - libfuse2
   - checkinstall # keeps track of everything installed by make install
   - yakuake # drop-down terminal for KDE
   - mitmproxy # powerful proxy tool
   - flameshot # screenshot tool
   - smartgit
   - gimp # gnu image manipulation pack
+  - chromium-browser
+  - blender
 ...
